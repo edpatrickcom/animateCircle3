@@ -66,10 +66,10 @@
 
 + (BOOL)needsDisplayForKey:(NSString *)key {
     
-    if ([@"arcAngle" isEqualToString:key]) {
+    if ([key isEqualToString:@"arcAngle"]) {
         
         return YES;
-        
+    
     } else {
         
         return [super needsDisplayForKey:key];
@@ -171,7 +171,6 @@
 
 - (id<CAAction>)actionForKey:(NSString *)event {
     
-    NSLog(@"actionForKey");
     
     if ([event isEqualToString:@"arcAngle"]) {
         

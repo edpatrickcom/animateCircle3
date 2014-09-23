@@ -37,10 +37,10 @@
     
     self.circleLayer.position = CGPointMake(self.view.bounds.size.width / 2, 350);
     self.circleLayer.strokeWidth = 10;
-    self.circleLayer.strokeColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.8];
-    self.circleLayer.updateDuration = 5.0;
+    self.circleLayer.strokeColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:0.8];
+    self.circleLayer.updateDuration = 3.0;
     self.circleLayer.circleWidth = 200;
-    self.circleLayer.backgroundColor = [[UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:0] CGColor];
+    self.circleLayer.backgroundColor = [[UIColor colorWithRed:1 green:1 blue:1 alpha:0] CGColor];
     
     [self.view.layer addSublayer:self.circleLayer];
 
