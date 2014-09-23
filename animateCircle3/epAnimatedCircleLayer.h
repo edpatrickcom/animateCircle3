@@ -11,7 +11,7 @@
 
 @interface epAnimatedCircleLayer : CALayer
 
-@property (nonatomic) float angle;
+@property (nonatomic) float arcAngle;
 
 @property (strong,nonatomic) UIColor *strokeColor;
 @property (nonatomic) float strokeWidth;

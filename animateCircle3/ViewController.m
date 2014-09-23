@@ -38,16 +38,16 @@
     self.circleLayer.position = CGPointMake(self.view.bounds.size.width / 2, 350);
     self.circleLayer.strokeWidth = 10;
     self.circleLayer.strokeColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.8];
-    self.circleLayer.updateDuration = 1.0;
+    self.circleLayer.updateDuration = 5.0;
     self.circleLayer.circleWidth = 200;
-    self.circleLayer.backgroundColor = [[UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:1] CGColor];
+    self.circleLayer.backgroundColor = [[UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:0] CGColor];
     
     [self.view.layer addSublayer:self.circleLayer];
 
     
     // set the angle to something
     
-    [self.circleLayer setAngle:360];
+    [self.circleLayer setArcAngle:360];
 
     
     
