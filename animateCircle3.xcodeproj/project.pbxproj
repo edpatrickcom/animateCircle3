@@ -14,6 +14,7 @@
 		58C1211719D1D4BC0004CC64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C1211619D1D4BC0004CC64 /* Images.xcassets */; };
 		58C1211A19D1D4BC0004CC64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C1211819D1D4BC0004CC64 /* LaunchScreen.xib */; };
 		58C1212619D1D4BC0004CC64 /* animateCircle3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C1212519D1D4BC0004CC64 /* animateCircle3Tests.m */; };
+		58C1213119D1D5240004CC64 /* epAnimatedCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C1213019D1D5240004CC64 /* epAnimatedCircleLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		58C1211F19D1D4BC0004CC64 /* animateCircle3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animateCircle3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C1212419D1D4BC0004CC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58C1212519D1D4BC0004CC64 /* animateCircle3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = animateCircle3Tests.m; sourceTree = "<group>"; };
+		58C1212F19D1D5240004CC64 /* epAnimatedCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = epAnimatedCircleLayer.h; sourceTree = "<group>"; };
+		58C1213019D1D5240004CC64 /* epAnimatedCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = epAnimatedCircleLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				58C1210E19D1D4BC0004CC64 /* AppDelegate.m */,
 				58C1211019D1D4BC0004CC64 /* ViewController.h */,
 				58C1211119D1D4BC0004CC64 /* ViewController.m */,
+				58C1212F19D1D5240004CC64 /* epAnimatedCircleLayer.h */,
+				58C1213019D1D5240004CC64 /* epAnimatedCircleLayer.m */,
 				58C1211319D1D4BC0004CC64 /* Main.storyboard */,
 				58C1211619D1D4BC0004CC64 /* Images.xcassets */,
 				58C1211819D1D4BC0004CC64 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58C1211219D1D4BC0004CC64 /* ViewController.m in Sources */,
+				58C1213119D1D5240004CC64 /* epAnimatedCircleLayer.m in Sources */,
 				58C1210F19D1D4BC0004CC64 /* AppDelegate.m in Sources */,
 				58C1210C19D1D4BC0004CC64 /* main.m in Sources */,
 			);
