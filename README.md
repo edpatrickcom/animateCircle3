@@ -36,6 +36,16 @@ Add the animated circle layer to your view
 
 ```
 
+Trigger the animation by setting the custom property
+
+```
+
+    // set the angle to something
+    
+    [self.circleLayer setArcAngle:360];
+
+```
+
 
 
 
