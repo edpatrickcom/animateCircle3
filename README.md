@@ -28,5 +28,15 @@ Initialize
 ```
 
 
+Add the animated circle layer to your view
+
+```
+
+    [self.view.layer addSublayer:self.circleLayer];
+
+```
+
+
+
 
 
